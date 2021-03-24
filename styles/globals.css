@@ -1,16 +1,46 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+body {
+  background-color: #101012;
+}
+
+.coin_app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #fff;
+  /* width: 100vw; */
+}
+
+.layout {
+  height: 100%;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.header {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.coin_logo {
+  height: 200px;
+  width: 200px;
+  /* border: 2px solid red; */
 }
